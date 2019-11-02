@@ -8,7 +8,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+        Click on an image to earn points, but don't click on any more than once!
         </p>
         <a
           className="App-link"
