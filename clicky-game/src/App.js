@@ -4,7 +4,7 @@ import './App.css';
 
 class App extends React.Component {
   state = {
-    colors : [require("./assets/pika.png"), require("./assets/charm.png"), require("./assets/squirtle.png")],
+    colors : [require("./assets/pika.png"), require("./assets/charm.png"), require("./assets/squirtle.png"), require("./assets/bulba.png"), require("./assets/mewtwo.png")],
     clicked: [],
     score: 0,
     highscore: -1
@@ -27,7 +27,7 @@ reset = ()=>{
 }
 
 checkWL = () =>{
-  if (this.state.score === 3){
+  if (this.state.score === 5){
     alert("you win!")
       this.reset()
   }
